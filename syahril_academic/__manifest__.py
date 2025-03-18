@@ -1,0 +1,26 @@
+{
+    "name": "Syahril Academic",
+    "version": "16.0.1.0",
+    "summary": 'Academic Module',
+    "category": "Education",
+    "depends": ['base', 'board'],
+    "author": "SYAHRIL DARMAWAN",
+    "license": "AGPL-3",
+    "description":"""This is an **Academic Management Module** for Odoo, designed to manage courses, sessions, attendees, and instructors efficiently.
+""",
+    "data":[
+        "security/groups.xml",
+        "security/ir.model.access.csv",
+        "menu.xml",
+        "course.xml",
+        "session.xml",
+        "attendee.xml",
+        "partner.xml",
+        "dashboard.xml",
+        "wizard/create_attendee.xml",
+        "reports/session.xml",
+    ],
+    "installable":True,
+    "auto_install":False,
+    "application":True,
+}
