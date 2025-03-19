@@ -1,5 +1,5 @@
 {
-    "name": "Syahril Academic",
+    "name": "Academic Module",
     "version": "16.0.1.0",
     "summary": 'Academic Module',
     "category": "Education",
